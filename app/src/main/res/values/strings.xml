@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CoffeeApp</string>
+    <string-array name="coffee_data1">
+        <item>Arabica</item>
+        <item>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</item>
+        <item>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</item>
+    </string-array>
+    <string-array name="coffee_data2">
+        <item>Robusta</item>
+        <item>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</item>
+        <item>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</item>
+    </string-array>
+    <string-array name="coffee_data3">
+        <item>Arabica</item>
+        <item>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</item>
+        <item>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</item>
+    </string-array>
+
+    <string name="test_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed egestas augue, ut consequat dui.
+        Integer sit amet nunc eget velit porta fringilla. Aenean efficitur dui sit amet vehicula </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
