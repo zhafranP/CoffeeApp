@@ -32,10 +32,9 @@ class CoffeeListAdapter(private val context: Context, private val dataset: List<
         val coffeeData = context.resources.getStringArray(item.ResourceId)
         holder.itemName.text = coffeeData[0]
         holder.shortDescription.text = coffeeData[1]
-        holder.itemImage.setImageResource(R.drawable.androidparty)
+        holder.itemImage.setImageResource(item.imageResourceId)
         holder.cardView.setOnClickListener {
-//            val action = CoffeeListDirections.actionCoffeeListToCoffeeDetail(index = position)
-            val action = CoffeeListDirections.actionCoffeeListToBlankFragment()
+            val action = CoffeeListDirections.actionCoffeeListToCoffeeDetails(index = position, name = coffeeData[0])
             holder.view.findNavController().navigate(action)
         }
 

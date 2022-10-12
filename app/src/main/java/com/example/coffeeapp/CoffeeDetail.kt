@@ -35,6 +35,7 @@ class CoffeeDetail : Fragment() {
             index = it.getInt("index")
         }
 
+
     }
 
     override fun onCreateView(
@@ -52,7 +53,7 @@ class CoffeeDetail : Fragment() {
         val coffee = requireContext().resources.getStringArray(dataSet.ResourceId).toList()
         binding.coffeeName.text = coffee[0]
         binding.coffeeLongdescription.text = coffee[2]
-        binding.coffeeImage.setImageResource(R.drawable.androidparty)
+        binding.coffeeImage.setImageResource(dataSet.imageResourceId)
     }
 
     override fun onDestroyView() {

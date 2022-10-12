@@ -4,8 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".CoffeeDetail">
+    tools:context=".CoffeeDetails">
 
+    <!-- TODO: Update blank fragment layout -->
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:layout_width="match_parent"
@@ -60,5 +61,6 @@
         android:layout_marginRight="35dp"
         android:layout_marginBottom="20dp"
         app:maxImageSize="28dp"
-        app:srcCompat="@drawable/ic_favorite" />
+        app:srcCompat="@drawable/ic_favorite"  />
+
 </FrameLayout>

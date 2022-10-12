@@ -13,10 +13,9 @@
 
         <ImageView
             android:id="@+id/item_image"
-            android:layout_width="119dp"
-            android:layout_height="194dp"
+            android:layout_width="117dp"
+            android:layout_height="match_parent"
             android:importantForAccessibility="no"
-            android:scaleType="centerCrop"
             android:src="@drawable/androidparty" />
 
         <LinearLayout

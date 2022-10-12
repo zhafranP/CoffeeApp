@@ -1,4 +1,4 @@
 package com.example.coffeeapp.model
 
-class Coffee(val ResourceId: Int) {
+data class Coffee(val ResourceId: Int, val imageResourceId: Int) {
 }
